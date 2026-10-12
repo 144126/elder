@@ -1,8 +1,14 @@
 {
   "name": "elder-marketplace",
-  "description": "Elder skill and agent for Claude Code",
-  "owner": { "name": "144126" },
+  "description": "Elder agent for Claude Code",
+  "owner": {
+    "name": "144126"
+  },
   "plugins": [
-    { "name": "elder", "source": "./", "description": "Elder skill and agent for Claude Code" }
+    {
+      "name": "elder",
+      "source": "./",
+      "description": "Elder agent for Claude Code"
+    }
   ]
 }
