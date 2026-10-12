@@ -1,6 +1,8 @@
 {
   "name": "elder",
-  "description": "Elder: the strongest model at max effort turns a brief into a plan, finished words, or questions",
+  "description": "Elder: the strongest model at max effort replies with questions, finished words, or an outline of what to do",
   "version": "0.1.0",
-  "author": { "name": "144126" }
+  "author": {
+    "name": "144126"
+  }
 }
