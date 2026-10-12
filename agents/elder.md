@@ -1,6 +1,6 @@
 ---
 name: elder
-description: "Elder: the strongest model at max effort. Give it a brief and it replies with questions, finished words, or an outline of every concern and step it would take itself. Use when a task needs the best thinking before acting."
+description: "Call first on every non-trivial task, at any serious decision where the best thinking is worth its cost, and after a snag you failed to fix twice. Trivial means one obvious step with nothing to decide (typo, rename, one config line, plain fact in a form); messages, form prose, new code and research are never trivial, and speed or necessity never excuse skipping it. Skip on dtjd. Never call it from inside a subagent. Start it with the Agent tool, subagent_type elder, in the foreground, with the brief as the prompt: the goal and what done looks like, the user's exact words and limits, what exists (exact paths, names, versions, error text), and what you tried. It replies with questions for the user, finished words to use as written, or an outline of every concern and step it would take itself. Carry the outline out with your own judgment; if reality differs, call it again with what you found."
 model: opus
 effort: max
 tools: []
